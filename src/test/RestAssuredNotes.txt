@@ -1,0 +1,102 @@
+Rest Assured:
+
+This is build using Groovy language
+It can added to any build tools (Maven, Gradle etc)
+It supports automating REST APIS(xml and JSON)
+
+
+Action Methods
+
+GET
+PUT
+POST
+PATCH
+DELETE
+
+GET POST DELETE
+
+POST where you will be updating the data
+
+POST body can be sent in multiple ways
+
+1. String
+2. HAshMap
+3. POJO Objects
+4. It send through an external File (Excel file or JsonFile)
+
+{
+    "firstname" : "Jim",
+    "lastname" : "Brown",
+    "totalprice" : 111,
+    "depositpaid" : true,
+    "bookingdates" :
+    {
+        "checkin" : "2018-01-01",
+        "checkout" : "2019-01-01"
+    },
+    "additionalneeds" : "Breakfast"
+}
+
+bookingdetails--> bookingdates
+hashMap<> ---> <hashMap>
+
+bookingDetails<a,... <bookingDates>>
+
+
+
+{firstname=QT, additionalneeds=breakfast, checkin=2018-01-01, totalprice=112, depositpaid=true, checkout=2018-04-04, lastname=Batch3}
+
+
+https://www.amazon.com/gp/help/customer/display.html?nodeId=508510&ref_=nav_cs_customerservice
+
+
+URL = URI+Path+Endpoint
+
+URL:(Universal resource locator)
+https://restful-booker.herokuapp.com/booking
+
+host : https://restful-booker.herokuapp.com --URI
+
+
+https://www.myntra.com/shirts/roadster/roadster-men-beige--navy-blue-checked-reversible-casual-shirt/2220379/buy
+
+1.Response
+
+Jsonobject
+
+
+
+Xls extension excelfile -- HSSFWorkBook class
+Xlsx -- XSSFWorkBook class
+
+PUT PATCH DELETE
+
+{
+    "firstname" : "MOhan",
+    "lastname" : "Brown",
+    "totalprice" : 111,
+    "depositpaid" : false,
+    "bookingdates" :
+    {
+        "checkin" : "2018-01-01",
+        "checkout" : "2019-01-01"
+    },
+    "additionalneeds" : "Breakfast"
+}
+
+Customized Framework
+
+1. Domain
+2. Testing Scope
+3. Test Strategy
+4. Framework Design
+5. Implementation
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7269110a-ae8f-4d02-8cae-feac34efa5a7" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1evoYUR6fypBuH1JOYmyLH83ztC" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RunManager" selected="TestNG.RestAssuredExamples.testGetRestBooking">
+    <configuration name="RestAssuredExamples.testGetRestBooking" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAsuredBatch-3" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RestAssuredExamples" />
+      <option name="METHOD_NAME" value="testGetRestBooking" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RestAssuredExamples.testPostBookingPojoFile" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAsuredBatch-3" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RestAssuredExamples" />
+      <option name="METHOD_NAME" value="testPostBookingPojoFile" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RestAssuredExamples.testPostBookingUsingJsonFile" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAsuredBatch-3" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RestAssuredExamples" />
+      <option name="METHOD_NAME" value="testPostBookingUsingJsonFile" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RestAssuredExamples.testPostHashBooking" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAsuredBatch-3" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RestAssuredExamples" />
+      <option name="METHOD_NAME" value="testPostHashBooking" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RestAssuredExamples.testPostUsingExcel" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="RestAsuredBatch-3" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RestAssuredExamples" />
+      <option name="METHOD_NAME" value="testPostUsingExcel" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.RestAssuredExamples.testGetRestBooking" />
+        <item itemvalue="TestNG.RestAssuredExamples.testPostUsingExcel" />
+        <item itemvalue="TestNG.RestAssuredExamples.testPostBookingPojoFile" />
+        <item itemvalue="TestNG.RestAssuredExamples.testPostBookingUsingJsonFile" />
+        <item itemvalue="TestNG.RestAssuredExamples.testPostHashBooking" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7269110a-ae8f-4d02-8cae-feac34efa5a7" name="Default Changelist" comment="" />
+      <created>1595211474999</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1595211474999</updated>
+      <workItem from="1595211480119" duration="11924000" />
+      <workItem from="1595555413092" duration="9170000" />
+      <workItem from="1595728961459" duration="4271000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="496" y="235" width="813" height="666" key="#Project_Structure" timestamp="1595732813452">
+      <screen x="0" y="23" width="1792" height="1046" />
+    </state>
+    <state x="496" y="227" width="813" height="666" key="#Project_Structure/0.0.1792.1120@0.0.1792.1120" timestamp="1595560421670" />
+    <state x="496" y="235" key="#Project_Structure/0.23.1792.1046@0.23.1792.1046" timestamp="1595732813452" />
+    <state x="360" y="223" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595642738492">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="360" y="223" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1595642738492" />
+    <state x="709" y="255" key="#com.intellij.ide.util.MemberChooser" timestamp="1595384745757">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="709" y="255" key="#com.intellij.ide.util.MemberChooser/0.0.1792.1120@0.0.1792.1120" timestamp="1595384745757" />
+    <state x="634" y="315" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1595301154270">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="634" y="315" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1595301154270" />
+    <state x="653" y="427" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1595642813271">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="653" y="427" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1792.1120@0.0.1792.1120" timestamp="1595642813271" />
+    <state width="1750" height="382" key="GridCell.Tab.0.bottom" timestamp="1595733351102">
+      <screen x="0" y="23" width="1792" height="1046" />
+    </state>
+    <state width="1750" height="517" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1595560467641" />
+    <state width="1750" height="382" key="GridCell.Tab.0.bottom/0.23.1792.1046@0.23.1792.1046" timestamp="1595733351102" />
+    <state width="1750" height="382" key="GridCell.Tab.0.center" timestamp="1595733351101">
+      <screen x="0" y="23" width="1792" height="1046" />
+    </state>
+    <state width="1750" height="517" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1595560467640" />
+    <state width="1750" height="382" key="GridCell.Tab.0.center/0.23.1792.1046@0.23.1792.1046" timestamp="1595733351101" />
+    <state width="1750" height="382" key="GridCell.Tab.0.left" timestamp="1595733351100">
+      <screen x="0" y="23" width="1792" height="1046" />
+    </state>
+    <state width="1750" height="517" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1595560467639" />
+    <state width="1750" height="382" key="GridCell.Tab.0.left/0.23.1792.1046@0.23.1792.1046" timestamp="1595733351100" />
+    <state width="1750" height="382" key="GridCell.Tab.0.right" timestamp="1595733351101">
+      <screen x="0" y="23" width="1792" height="1046" />
+    </state>
+    <state width="1750" height="517" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1595560467640" />
+    <state width="1750" height="382" key="GridCell.Tab.0.right/0.23.1792.1046@0.23.1792.1046" timestamp="1595733351101" />
+    <state x="434" y="223" key="Maven.ArtifactSearchDialog" timestamp="1595557632928">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="434" y="223" key="Maven.ArtifactSearchDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1595557632928" />
+    <state x="397" y="209" key="SettingsEditor" timestamp="1595732824090">
+      <screen x="0" y="23" width="1792" height="1046" />
+    </state>
+    <state x="397" y="199" key="SettingsEditor/0.0.1792.1120@0.0.1792.1120" timestamp="1595560408577" />
+    <state x="397" y="209" key="SettingsEditor/0.23.1792.1046@0.23.1792.1046" timestamp="1595732824090" />
+    <state x="550" y="394" key="com.intellij.ide.util.TipDialog" timestamp="1595728961896">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="550" y="394" key="com.intellij.ide.util.TipDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1595728961896" />
+    <state x="273" y="261" key="new project wizard" timestamp="1595642661429">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="273" y="261" key="new project wizard/0.0.1792.1120@0.0.1792.1120" timestamp="1595642661429" />
+  </component>
+</project>
