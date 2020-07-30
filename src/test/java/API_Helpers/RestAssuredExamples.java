@@ -1,58 +1,62 @@
+package API_Helpers;
+
+import Helpers.*;
 import io.restassured.http.ContentType;
-import io.restassured.response.Response;
 import org.json.JSONObject;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import java.io.File;
 import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.Paths;
+
 import java.util.HashMap;
 import java.util.Map;
 
 import static io.restassured.RestAssured.given;
-import static io.restassured.RestAssured.when;
 
-public class RestAssuredExamples extends BaseApi{
+
+public class RestAssuredExamples extends BaseApi {
 
     public BaseApi baseApi = new BaseApi();
     static final RestLogger rlog = RestLogger.getLogger(RestAssuredExamples.class);
 
 
-    @Test
+
     public void testGetRestBooking(){
-        String apiUrl = Constants.bookingURI+Constants.bookingPath;
+        String apiUrl = Constants.bookingURI+ Constants.bookingPath;
         rlog.info(apiUrl);
         baseApi.doGetMethod(apiUrl);
-        baseApi.validateStatusCode(200);
     }
 
-    @Test
+    public void testPostRequest(){
+        String apiUrl = Constants.bookingURI+ Constants.bookingPath;
+        rlog.info(apiUrl);
+        baseApi.doPostRequest(apiUrl);
+    }
+
+
     public void testPostBooking(){
 
         String postBody = "{\"firstname\":\"Jim\",\"lastname\":\"Brown\",\"totalprice\":111,\"depositpaid\":true,\"bookingdates\":{\"checkin\":\"2018-01-01\",\"checkout\":\"2019-01-01\"},\"additionalneeds\":\"Breakfast\"}";
 
-        Response response = (Response) given().contentType(ContentType.JSON)
+         given().contentType(ContentType.JSON)
                 .when()
                 .body(postBody)
                 .post("https://restful-booker.herokuapp.com/booking")
                 .then()
                 .statusCode(200);
-        System.out.println(response.asString());
-
     }
 
     @Test
     public void testPostHashBooking() {
 
-        Map<String, Object> postBody = new HashMap<>();
+        Map<String, Object> postBody = new HashMap<String, Object>();
         postBody.put("firstname", "QT");
         postBody.put("lastname", "Batch3");
         postBody.put("depositpaid", "true");
         postBody.put("totalprice", "112");
         postBody.put("additionalneeds", "breakfast");
-        Map<String, Object> bookingdates = new HashMap<>();
+        Map<String, Object> bookingdates = new HashMap<String, Object>();
         bookingdates.put("checkin", "2018-01-01");
         bookingdates.put("checkout", "2018-04-04");
         postBody.put("bookingdates", bookingdates);
@@ -96,7 +100,7 @@ public class RestAssuredExamples extends BaseApi{
 
     @Test
     public void testPostBookingAsArray() throws IOException {
-        //byte[] postBody = Files.readAllBytes(Paths.get("src/test/resources/testData/sample.json"));
+        //byte[] postBody = Files.toByteArray(get("src/test/resources/testData/sample.json"));
         given().contentType(ContentType.JSON)
                 .when()
                // .body(postBody)
@@ -122,7 +126,7 @@ public class RestAssuredExamples extends BaseApi{
 
     @Test
     public void testPUTMethod(){
-        Map<String, Object> putBody = new HashMap<>();
+        Map<String, Object> putBody = new HashMap<String, Object>();
         putBody.put("name", "morpheus");
         putBody.put("job", "zion resident");
         given().contentType(ContentType.JSON)
@@ -152,7 +156,7 @@ public class RestAssuredExamples extends BaseApi{
         given().contentType(ContentType.JSON)
                 .when()
                 .body(testData)
-                .post(Constants.baseURI+Constants.basePath+Constants.endPoint)
+                .post(Constants.baseURI+ Constants.basePath+ Constants.endPoint)
                 .then().log().all()
                 .statusCode(201);
 

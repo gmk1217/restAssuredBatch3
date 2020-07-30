@@ -1,3 +1,5 @@
+package Helpers;
+
 import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
@@ -9,7 +11,7 @@ import static org.hamcrest.Matchers.containsString;
 public class BaseApi {
 
 
-    public Response response;
+    public static Response response;
 
     public void doGetMethod(String apiUrl){
         response = given().contentType("application/json")
@@ -18,7 +20,7 @@ public class BaseApi {
     }
 
     public void validateStatusCode(int statusCode){
-        Assert.assertEquals(statusCode,response.statusCode());
+        Assert.assertEquals(statusCode,response.getStatusCode());
     }
 
     public void extractAttribute(String attributeName){
@@ -28,8 +30,11 @@ public class BaseApi {
 
     public void doPostRequest(String apiUrl){
         response = given().contentType("application/json")
+                .body(Payload.postUser())
                 .when()
                 .post(apiUrl);
+       int statusCode = response.statusCode();
+        System.out.println(statusCode);
     }
 
     public void doPutRequest(String apiUrl){

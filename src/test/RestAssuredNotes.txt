@@ -93,10 +93,54 @@ Customized Framework
 5. Implementation
 
 
+BDD- Behvaior Driven Development
+TDD- Test Driven Development
+
+Agile-->Stroy -->DEV&QA --> they will come up with test Scenarios
+DEV --> will start writing unit test methods
+
+public void testLogin(){
+  String userName = "";
+  String Pwd = "";
+
+  if (UserName.contains("@")
+  {
+  }
+}
+
+public void login(){
+
+}
+
+RED--> Green --> Refactor
+
+BDD-behavior
+Given When Then
+
+
+As an User i should be able to login using valid Credentials.
+
+1. User should be able to login with valid creds
+2. User should not proceed with invalid creds
+
+
+Given an user tries to login into "xy.com"
+When he enters valid username and password
+Then he should be able to login
 
 
 
 
 
+Enter Alphanumeric values into UserName text filed, verify whether an error message is displayed
+Enter alphanumeric values into pwd text filed, verify whether an error message is displayed
 
 
+Cucumber
+
+1. Feature file
+2. Step definition file
+3. Runner file
+
+
+Report configuration--> test execution using testNg define--> Integrated with POM.xml

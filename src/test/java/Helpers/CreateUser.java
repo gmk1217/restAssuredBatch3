@@ -1,3 +1,5 @@
+package Helpers;
+
 public class CreateUser {
 
     public String name;
