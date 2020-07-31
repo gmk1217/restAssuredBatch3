@@ -2,7 +2,7 @@ package API_Helpers;
 
 import Helpers.*;
 import io.restassured.http.ContentType;
-import org.json.JSONObject;
+//import org.json.JSONObject;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
@@ -112,12 +112,12 @@ public class RestAssuredExamples extends BaseApi {
     @Test
     public void testPostCustomerUsingJSONObject(){
 
-        JSONObject user = new JSONObject();
-        user.put("name","morpheus");
-        user.put("job","leader");
+        //JSONObject user = new JSONObject();
+       // user.put("name","morpheus");
+        //user.put("job","leader");
         given().contentType(ContentType.JSON)
                 .when()
-                .body(user)
+                //.body(user)
                 .post("https://reqres.in/api/users")
                 .then().log().all()
                 .statusCode(201);
@@ -150,12 +150,12 @@ public class RestAssuredExamples extends BaseApi {
     @Test(dataProvider = "xlData")
     public void testPostUsingExcel(String name, String job){
 
-        JSONObject testData = new JSONObject();
-        testData.put("name",name);
-        testData.put("job",job);
+      //  JSONObject testData = new JSONObject();
+       // testData.put("name",name);
+        //testData.put("job",job);
         given().contentType(ContentType.JSON)
                 .when()
-                .body(testData)
+               // .body(testData)
                 .post(Constants.baseURI+ Constants.basePath+ Constants.endPoint)
                 .then().log().all()
                 .statusCode(201);

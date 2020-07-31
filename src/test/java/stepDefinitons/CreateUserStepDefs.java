@@ -20,7 +20,7 @@ public class CreateUserStepDefs {
         restExamples.testPostRequest();
     }
 
-    @Then("the request should give me {int} response")
+    @Then("the request should give me (\\d+) response")
     public void the_request_should_give_me_response(int statusCode) {
         baseApi.validateStatusCode(statusCode);
     }

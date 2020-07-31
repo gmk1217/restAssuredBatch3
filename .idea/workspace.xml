@@ -2,38 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7269110a-ae8f-4d02-8cae-feac34efa5a7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/RestAsuredBatch-3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Helpers/ConfigReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Helpers/FileManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Helpers/Payload.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Helpers/ReportConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitons/CreateUserStepDefs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefinitons/RestCukeRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/createBooking.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/getListOfUsers.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testNG.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Ouput/APilogs/output.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawl.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Helpers/reports.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/RestAssuredNotes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/RestAssuredNotes.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BaseApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Helpers/BaseApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Helpers/Constants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CreateUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Helpers/CreateUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ExcelUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Helpers/ExcelUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RestAssuredExamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/API_Helpers/RestAssuredExamples.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RestLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Helpers/RestLogger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/BaseApi.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Constants.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/CreateUser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/ExcelUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/RestAssuredExamples.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/RestLogger.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/API_Helpers/RestAssuredExamples.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/API_Helpers/RestAssuredExamples.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Helpers/ConfigReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Helpers/ConfigReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Helpers/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Helpers/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Helpers/FileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Helpers/FileManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Helpers/reports.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Helpers/reports.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitons/CreateUserStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitons/CreateUserStepDefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefinitons/RestCukeRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefinitons/RestCukeRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/createBooking.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/getListOfUsers.feature" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/testData/sample.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/testData/testData.xlsx" beforeDir="false" />
     </list>
@@ -53,12 +37,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1evoYUR6fypBuH1JOYmyLH83ztC" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -173,11 +160,15 @@
       <workItem from="1595871051680" duration="7183000" />
       <workItem from="1595987684622" duration="4261000" />
       <workItem from="1596050086880" duration="5119000" />
+      <workItem from="1596079208942" duration="8339000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="496" y="232" width="813" height="666" key="#Project_Structure" timestamp="1595872463186">
@@ -205,47 +196,47 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="653" y="427" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1792.1120@0.0.1792.1120" timestamp="1595642813271" />
-    <state width="1750" height="399" key="GridCell.Tab.0.bottom" timestamp="1596079181435">
+    <state width="1750" height="399" key="GridCell.Tab.0.bottom" timestamp="1596161492143">
       <screen x="0" y="23" width="1792" height="1046" />
     </state>
     <state width="1750" height="517" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1595560467641" />
-    <state width="1750" height="399" key="GridCell.Tab.0.bottom/0.23.1792.1046@0.23.1792.1046" timestamp="1596079181435" />
-    <state width="1750" height="399" key="GridCell.Tab.0.center" timestamp="1596079181435">
+    <state width="1750" height="399" key="GridCell.Tab.0.bottom/0.23.1792.1046@0.23.1792.1046" timestamp="1596161492143" />
+    <state width="1750" height="399" key="GridCell.Tab.0.center" timestamp="1596161492142">
       <screen x="0" y="23" width="1792" height="1046" />
     </state>
     <state width="1750" height="517" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1595560467640" />
-    <state width="1750" height="399" key="GridCell.Tab.0.center/0.23.1792.1046@0.23.1792.1046" timestamp="1596079181435" />
-    <state width="1750" height="399" key="GridCell.Tab.0.left" timestamp="1596079181435">
+    <state width="1750" height="399" key="GridCell.Tab.0.center/0.23.1792.1046@0.23.1792.1046" timestamp="1596161492142" />
+    <state width="1750" height="399" key="GridCell.Tab.0.left" timestamp="1596161492142">
       <screen x="0" y="23" width="1792" height="1046" />
     </state>
     <state width="1750" height="517" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1595560467639" />
-    <state width="1750" height="399" key="GridCell.Tab.0.left/0.23.1792.1046@0.23.1792.1046" timestamp="1596079181435" />
-    <state width="1750" height="399" key="GridCell.Tab.0.right" timestamp="1596079181435">
+    <state width="1750" height="399" key="GridCell.Tab.0.left/0.23.1792.1046@0.23.1792.1046" timestamp="1596161492142" />
+    <state width="1750" height="399" key="GridCell.Tab.0.right" timestamp="1596161492143">
       <screen x="0" y="23" width="1792" height="1046" />
     </state>
     <state width="1750" height="517" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1595560467640" />
-    <state width="1750" height="399" key="GridCell.Tab.0.right/0.23.1792.1046@0.23.1792.1046" timestamp="1596079181435" />
-    <state width="1750" height="353" key="GridCell.Tab.1.bottom" timestamp="1595920254617">
+    <state width="1750" height="399" key="GridCell.Tab.0.right/0.23.1792.1046@0.23.1792.1046" timestamp="1596161492143" />
+    <state width="1750" height="353" key="GridCell.Tab.1.bottom" timestamp="1596159966487">
       <screen x="0" y="23" width="1792" height="1046" />
     </state>
-    <state width="1750" height="353" key="GridCell.Tab.1.bottom/0.23.1792.1046@0.23.1792.1046" timestamp="1595920254617" />
-    <state width="1750" height="353" key="GridCell.Tab.1.center" timestamp="1595920254616">
+    <state width="1750" height="353" key="GridCell.Tab.1.bottom/0.23.1792.1046@0.23.1792.1046" timestamp="1596159966487" />
+    <state width="1750" height="353" key="GridCell.Tab.1.center" timestamp="1596159966486">
       <screen x="0" y="23" width="1792" height="1046" />
     </state>
-    <state width="1750" height="353" key="GridCell.Tab.1.center/0.23.1792.1046@0.23.1792.1046" timestamp="1595920254616" />
-    <state width="1750" height="353" key="GridCell.Tab.1.left" timestamp="1595920254616">
+    <state width="1750" height="353" key="GridCell.Tab.1.center/0.23.1792.1046@0.23.1792.1046" timestamp="1596159966486" />
+    <state width="1750" height="353" key="GridCell.Tab.1.left" timestamp="1596159966486">
       <screen x="0" y="23" width="1792" height="1046" />
     </state>
-    <state width="1750" height="353" key="GridCell.Tab.1.left/0.23.1792.1046@0.23.1792.1046" timestamp="1595920254616" />
-    <state width="1750" height="353" key="GridCell.Tab.1.right" timestamp="1595920254616">
+    <state width="1750" height="353" key="GridCell.Tab.1.left/0.23.1792.1046@0.23.1792.1046" timestamp="1596159966486" />
+    <state width="1750" height="353" key="GridCell.Tab.1.right" timestamp="1596159966486">
       <screen x="0" y="23" width="1792" height="1046" />
     </state>
-    <state width="1750" height="353" key="GridCell.Tab.1.right/0.23.1792.1046@0.23.1792.1046" timestamp="1595920254616" />
-    <state x="434" y="231" key="Maven.ArtifactSearchDialog" timestamp="1596079174749">
+    <state width="1750" height="353" key="GridCell.Tab.1.right/0.23.1792.1046@0.23.1792.1046" timestamp="1596159966486" />
+    <state x="434" y="231" key="Maven.ArtifactSearchDialog" timestamp="1596079243195">
       <screen x="0" y="23" width="1792" height="1046" />
     </state>
     <state x="434" y="223" key="Maven.ArtifactSearchDialog/0.0.1792.1120@0.0.1792.1120" timestamp="1595557632928" />
-    <state x="434" y="231" key="Maven.ArtifactSearchDialog/0.23.1792.1046@0.23.1792.1046" timestamp="1596079174749" />
+    <state x="434" y="231" key="Maven.ArtifactSearchDialog/0.23.1792.1046@0.23.1792.1046" timestamp="1596079243195" />
     <state x="397" y="209" key="SettingsEditor" timestamp="1595988401611">
       <screen x="0" y="23" width="1792" height="1046" />
     </state>

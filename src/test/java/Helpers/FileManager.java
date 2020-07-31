@@ -2,7 +2,7 @@ package Helpers;
 
 public class FileManager {
 
-    private static ConfigReader configReader;
+    private static ConfigReader configReader = new ConfigReader();
     private static FileManager fileManager = new FileManager();
 
     private FileManager(){
@@ -13,7 +13,7 @@ public class FileManager {
         return fileManager;
     }
 
-    public ConfigReader getConfigReader() {
-        return(configReader== null)? new ConfigReader(): configReader;
+    public static ConfigReader getConfigReader() {
+        return configReader;
     }
 }
